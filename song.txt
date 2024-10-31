@@ -1,4 +1,7 @@
 some text
 some other text
-line 3
+
 line 4
+changed line 1
+changed line 2
+
