@@ -5,3 +5,6 @@ line 4
 changed line 1
 changed line 2
 
+some new text
+some text
+
