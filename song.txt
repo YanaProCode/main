@@ -8,3 +8,5 @@ changed line 2
 some new text
 some text
 
+new text for feature branch
+
