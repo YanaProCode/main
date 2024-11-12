@@ -1,0 +1,13 @@
+some text
+some other text
+
+line 4
+changed line 1
+changed line 2
+
+some new text
+some text
+
+new text for feature branch
+new text for feature branch 2
+
