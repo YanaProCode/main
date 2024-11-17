@@ -1,0 +1,20 @@
+foo;a=1,b=2;c=4;execution time: 0.0 sec.foo;a=1,b=2;c=3;execution time: 0.0 sec.foo;a=1,b=2;c=3;execution time: 0.0 sec.foo;a=1,b=2;c=3;execution time: 0.0 sec.
+foo;a=1,b=2;c=3;execution time: 0.0 sec.
+foo;a=1,b=2;c=3;execution time: 0.0 sec.
+foo;a=1,b=2;c=4;execution time: 0.0 sec.
+foo;a=1,b=2;c=3;execution time: 0.0 sec.
+foo;a=1,b=2;c=6;execution time: 0.0 sec.
+foo;args: a=1,b=2;c=3;execution time: 0.0 sec.
+foo;args: a=1,b=2;c=6;execution time: 0.0 sec.
+foo; args: a=1,b=2;c=3;execution time: 0.0 sec.
+foo; args: a=1,b=2;c=6;execution time: 0.0 sec.
+foo; args: a=1,b=2; kwargs: c=3;execution time: 0.0 sec.
+foo; args: a=1,b=2; kwargs: c=6;execution time: 0.0 sec.
+foo; args: a=1,b=2; kwargs: c=3; execution time: 0.0 sec.
+foo; args: a=1,b=2; kwargs: c=6; execution time: 0.0 sec.
+foo; args: a=1, b=2,; kwargs: c=3,; execution time: 0.0 sec.
+foo; args: a=1, b=2,; kwargs: c=6,; execution time: 0.0 sec.
+foo; args: a=1, b=2; kwargs: c=3,; execution time: 0.0 sec.
+foo; args: a=1, b=2; kwargs: c=6,; execution time: 0.0 sec.
+foo; args: a=1, b=2; kwargs: c=3; execution time: 0.0 sec.
+foo; args: a=1, b=2; kwargs: c=6; execution time: 0.0 sec.
