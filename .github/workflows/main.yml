@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print the date
-      run: date
+        run: date
 
   
     
