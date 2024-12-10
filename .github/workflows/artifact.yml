@@ -1,0 +1,22 @@
+name: Create Artifact
+
+on: push
+
+env:
+  WORKSPACE_ENVIRONMENT_VARIABLLE: my-artifact
+
+jobs:
+  job1: 
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with: 
+          name: ${{ env.WORKSPACE_ENVIRONMENT_VARIABLLE }}
+          path: arrows.txt
+    
+
