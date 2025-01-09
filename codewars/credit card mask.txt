@@ -1,0 +1,7 @@
+# return masked string
+def maskify(cc):
+    new_string = ""
+    for x in cc[:-4]:
+        new_string += "#"
+    new_string += cc[-4:]
+    return new_string

@@ -1,0 +1,12 @@
+def duplicate_count(text):
+    #create a dict which counts how many each character appears in text
+    dict_count = {}
+    for i in text.lower():
+        if i in dict_count:
+            dict_count[i] += 1
+        else:
+            dict_count[i] = 1
+    
+    #find how many letters appear in text more than once
+    new_list = [i for i in dict_count.values() if i > 1]
+    return len(new_list)
