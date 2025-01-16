@@ -6,5 +6,3 @@ iam_console = aws_management_console.resource('iam')
 for each_user in iam_console.users.all():
     print(each_user.name)
 
-#AccessKey: AKIA57VDLSHAJQTKIDJ2
-#SecretKey: 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
